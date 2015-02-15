@@ -1,0 +1,19 @@
+{
+  "name": "date.format",
+  "description": "JS Date format utility (UTC/local), (new Date()).format('Today {Y}/{M}/{D} at {h}:{m}:{s}:{ms}');",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bifuer",
+    "email": "bifuer@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bifuer/date.format"
+  },
+  "main": "./format.js",
+  "scripts": {},
+  "dependencies": {
+  	"string.format":"*"
+  },
+  "readmeFilename": "readme.md"
+}
