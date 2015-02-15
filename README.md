@@ -30,9 +30,6 @@ console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",
 + **s**: segundo
 + **ms**: milisegundo
 
-##Example
-+ [jsfiddle.net](#)
-
 
 ##Licence
 MIT
