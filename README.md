@@ -1,4 +1,4 @@
-# Date.format
+# Date.format [![Build Status](https://travis-ci.org/bifuer/Date.format.svg?branch=master)](https://travis-ci.org/bifuer/Date.format)
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
 [npm](https://www.npmjs.com/package/date.format)
