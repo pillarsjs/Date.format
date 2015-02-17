@@ -1,7 +1,7 @@
 # Date.format
 ![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/bifuer/Date.format/master.svg)](https://travis-ci.org/bifuer/Date.format) [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/bifuer/Date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format)
 
-Languages:[EN,[ES](#date-format-es)]
+Languages:[EN,[ES](#dateformat-es)]
 
 Add to [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
