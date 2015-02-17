@@ -1,26 +1,51 @@
 {
   "name": "date.format",
   "description": "JS Date format utility (UTC/local), (new Date()).format('Today {Y}/{M}/{D} at {h}:{m}:{s}:{ms}');",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
-    "name": "Bifuer",
+    "name": "Javier Gallego Martín",
     "email": "bifuer@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Chelo Quilón Gomez",
+      "email": "cheloq@gmail.com"
+    }
+  ],
+  "homepage":"https://github.com/bifuer/date.format",
   "repository": {
     "type": "git",
     "url": "git://github.com/bifuer/date.format"
   },
-  "main": "./format.js",
-  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/bifuer/date.format/issues",
+    "email" : "bifuer@gmail.com"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "format",
+    "parse",
+    "beautify",
+    "pattern"
+  ],
   "dependencies": {
-  	"string.format":"*"
+    "string.format":"*"
   },
   "devDependencies":{
     "mocha": "*",
     "unit.js":"*"
   },
+  "main": "./format.js",
   "scripts":{
     "test": "mocha test/"
   },
-  "readmeFilename": "readme.md"
+  "preferGlobal": false,
+  "files": [
+    "LICENSE",
+    "README.md",
+    "format.js"
+  ],
+  "readmeFilename": "readme.md",
+  "license": "MIT",
 }
