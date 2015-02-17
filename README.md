@@ -3,7 +3,7 @@
 
 Languages:[[EN](#),[ES](#dateformat-es)]
 
-Add to [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
+Add to [JS Date.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
 [npm](https://www.npmjs.com/package/date.format)
 
