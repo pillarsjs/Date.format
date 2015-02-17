@@ -1,5 +1,5 @@
-# Date.format [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format) [![Build Status](https://img.shields.io/travis/bifuer/Date.format/master.svg)](https://travis-ci.org/bifuer/Date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/bifuer/Date.format)
-
+# Date.format
+![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/bifuer/Date.format/master.svg)](https://travis-ci.org/bifuer/Date.format) [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/bifuer/Date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format)
 
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
