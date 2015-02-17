@@ -21,6 +21,6 @@
   },
   "scripts":{
   "test": "mocha unitTest.js"
-  }
+  },
   "readmeFilename": "readme.md"
 }
