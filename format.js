@@ -50,14 +50,3 @@ function dateFormat(date,pattern,utc){
   
   return pattern.format(d);
 }
-
-/* -------------------------------- */
-
-var date = new Date();
-console.log(date.format("Local: Day {Y}/{M}/{D} at {h}:{m}:{s} and {ms}ms"));
-console.log(date.format("Local: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms"));
-console.log(date.format("UTC: Day {Y}/{M}/{D} at {h}:{m}:{s} and {ms}ms",true));
-console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",true));
-
-
-/* -------------------------------- */
