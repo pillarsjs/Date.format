@@ -15,12 +15,5 @@
   "dependencies": {
   	"string.format":"*"
   },
-  "devDependencies":{
-   "mocha": "*",
-   "unit.js":"*"
-  },
-  "scripts":{
-  "test": "mocha unitTest.js"
-  },
   "readmeFilename": "readme.md"
 }
