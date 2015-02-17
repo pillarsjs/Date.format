@@ -1,5 +1,7 @@
-# Date.format 
+# Date.format
 ![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/bifuer/Date.format/master.svg)](https://travis-ci.org/bifuer/Date.format) [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/bifuer/Date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format)
+
+Languages:[EN,[ES](#date-format-es)]
 
 Add to [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
@@ -40,10 +42,12 @@ console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",
 + **ms**: milliseconds without leading zeros 0-999. **mss** milliseconds 4 digits. 
 
 
-##Licence
+## Licence
 MIT
 
-#Español
+---
+
+## Date.format (es)
 
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
@@ -83,5 +87,5 @@ console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",
 + **ms**: milisegundos sin ceros iniciales 0-999. **mss** milisegundos 4 dígitos. 
 
 
-##Licence
+## Licencia
 MIT
