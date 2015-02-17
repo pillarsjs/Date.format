@@ -1,7 +1,7 @@
 {
   "name": "date.format",
-  "description": "JS Date format utility (UTC/local), (new Date()).format('Today {Y}/{M}/{D} at {h}:{m}:{s}:{ms}');",
-  "version": "1.0.0",
+  "description": "JS Date format => date.format('Today {Y}/{M}/{D} at {h}:{m}:{s}h and {ms}ms');",
+  "version": "1.0.1",
   "author": {
     "name": "Javier Gallego Martín",
     "email": "bifuer@gmail.com"
@@ -46,6 +46,6 @@
     "README.md",
     "format.js"
   ],
-  "readmeFilename": "readme.md",
+  "readmeFilename": "README.md",
   "license": "MIT"
 }
