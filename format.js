@@ -13,7 +13,7 @@ function dateFormat(date,pattern,utc){
   if(utc){
     d = {
       Y: date.getUTCFullYear(),
-      M: date.getUTCMonth(),
+      M: date.getUTCMonth() + 1,
       D: date.getUTCDate(),
       h: date.getUTCHours(),
       m: date.getUTCMinutes(),
@@ -23,7 +23,7 @@ function dateFormat(date,pattern,utc){
   } else {
     d = {
       Y: date.getFullYear(),
-      M: date.getMonth(),
+      M: date.getMonth() + 1,
       D: date.getDate(),
       h: date.getHours(),
       m: date.getMinutes(),
@@ -31,7 +31,9 @@ function dateFormat(date,pattern,utc){
       ms: date.getMilliseconds()
     };
   }
-  d.YY = d.Y.toString();
+
+  d.YYYY = d.Y.toString()    
+  d.YY = d.Y.toString().slice(2);
   d.MM = d.M.toString();
   d.DD = d.D.toString();
   d.hh = d.h.toString();
