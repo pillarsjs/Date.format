@@ -16,11 +16,11 @@
   	"string.format":"*"
   },
   "devDependencies":{
-   "mocha": "*",
-   "unit.js":"*"
+    "mocha": "*",
+    "unit.js":"*"
   },
   "scripts":{
-  "test": "mocha unitTest.js"
+    "test": "mocha test/"
   },
   "readmeFilename": "readme.md"
 }
