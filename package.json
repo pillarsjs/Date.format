@@ -12,7 +12,7 @@
       "email": "cheloq@gmail.com"
     }
   ],
-  "homepage":"https://github.com/bifuer/date.format",
+  "homepage": "https://github.com/bifuer/date.format",
   "repository": {
     "type": "git",
     "url": "git://github.com/bifuer/date.format"
@@ -30,11 +30,11 @@
     "pattern"
   ],
   "dependencies": {
-    "string.format":"*"
+    "string.format": "*"
   },
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*",
-    "unit.js":"*"
+    "unit.js": "*"
   },
   "main": "./format.js",
   "scripts":{
@@ -47,5 +47,5 @@
     "format.js"
   ],
   "readmeFilename": "readme.md",
-  "license": "MIT",
+  "license": "MIT"
 }
