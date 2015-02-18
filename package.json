@@ -19,7 +19,7 @@
   },
   "bugs": {
     "url": "https://github.com/bifuer/date.format/issues",
-    "email" : "bifuer@gmail.com"
+    "email" : "cheloq@gmail.com"
   },
   "keywords": [
     "date",
@@ -36,7 +36,7 @@
     "mocha": "*",
     "unit.js": "*"
   },
-  "main": "./format.js",
+  "main": "./index.js",
   "scripts":{
     "test": "mocha test/"
   },
@@ -44,7 +44,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "format.js"
+    "index.js"
   ],
   "readmeFilename": "README.md",
   "license": "MIT"
