@@ -32,7 +32,7 @@ function dateFormat(date,pattern,utc){
     };
   }
 
-  d.YYYY = d.Y.toString()    
+  d.YYYY = d.Y.toString();
   d.YY = d.Y.toString().slice(2);
   d.MM = d.M.toString();
   d.DD = d.D.toString();
