@@ -18,7 +18,9 @@ function dateFormat(date,pattern,utc){
       h: date.getUTCHours(),
       m: date.getUTCMinutes(),
       s: date.getUTCSeconds(),
-      ms: date.getUTCMilliseconds()
+      ms: date.getUTCMilliseconds(),
+      tz: 0,
+      tzh: 0
     };
   } else {
     d = {
@@ -28,7 +30,9 @@ function dateFormat(date,pattern,utc){
       h: date.getHours(),
       m: date.getMinutes(),
       s: date.getSeconds(),
-      ms: date.getMilliseconds()
+      ms: date.getMilliseconds(),
+      tz: date.getTimezoneOffset(),
+      tzh: date.getTimezoneOffset() / 60
     };
   }
 
