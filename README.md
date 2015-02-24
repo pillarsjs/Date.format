@@ -5,6 +5,9 @@ Languages:[[EN](#),[ES](#dateformat-es)]
 
 Add to [JS Date.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
+
+> Date.format is based on [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+
 [npm](https://www.npmjs.com/package/date.format)
 
 ```javascript
@@ -51,6 +54,9 @@ MIT
 
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
+
+> Date.format utiliza [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+
 [npm](https://www.npmjs.com/package/date.format)
 
 ```javascript
