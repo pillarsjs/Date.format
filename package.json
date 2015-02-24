@@ -1,7 +1,7 @@
 {
   "name": "date.format",
   "description": "JS Date format => date.format('Today {Y}/{M}/{D} at {h}:{m}:{s}h and {ms}ms');",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "author": {
     "name": "Javier Gallego Martín",
     "email": "bifuer@gmail.com"
