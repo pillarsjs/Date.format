@@ -5,6 +5,9 @@ Languages:[[EN](#),[ES](#dateformat-es)]
 
 Add to [JS Date.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
+
+> Date.format is based on [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+
 [npm](https://www.npmjs.com/package/date.format)
 
 ```javascript
@@ -39,8 +42,12 @@ console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",
 + **h**: hour without leading zeros 0-23. **hh** hour 2 digits.
 + **m**: minutes without leading zeros 0-59. **mm** minutes 2 digits.
 + **s**: seconds without leading zeros 0-59. **ss** seconds 2 digits.
-+ **ms**: milliseconds without leading zeros 0-999. **mss** milliseconds 4 digits. 
++ **ms**: milliseconds without leading zeros 0-999. **mss** milliseconds 4 digits.
 
+NEW:
+
++ **tz**: Timezone difference between UTC and Local Time in minutes
++ **tzh**: Timezone difference between UTC and Local Time in hours
 
 ## Licence
 MIT
@@ -51,6 +58,9 @@ MIT
 
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
+
+> Date.format utiliza [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+
 [npm](https://www.npmjs.com/package/date.format)
 
 ```javascript
@@ -86,6 +96,10 @@ console.log(date.format("UTC: Day {YY}/{MM}/{DD} at {hh}:{mm}:{ss} and {mss}ms",
 + **s**: segundos sin ceros iniciales 0-59. **ss** segundos en 2 dígitos.
 + **ms**: milisegundos sin ceros iniciales 0-999. **mss** milisegundos 4 dígitos. 
 
+NEW:
+
++ **tz**: Diferencia de la zona horaria con respecto a UTC en minutos
++ **tzh**: Diferencia de la zona horaria con respecto a UTC en horas
 
 ## Licencia
 MIT
