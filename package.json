@@ -27,7 +27,10 @@
     "format",
     "parse",
     "beautify",
-    "pattern"
+    "pattern",
+    "node",
+    "js",
+    "javascript"
   ],
   "dependencies": {
     "string.format": "*"
