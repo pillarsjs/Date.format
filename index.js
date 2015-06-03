@@ -1,6 +1,13 @@
 /* jslint node: true */
 "use strict";
 
+global.modulesCache = global.modulesCache || {};
+if(global.modulesCache['date.format']){
+  return;
+} else {
+  global.modulesCache['date.format'] = true;
+}
+
 require('string.format');
 
 Date.format = dateFormat;
