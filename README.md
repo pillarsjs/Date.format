@@ -1,12 +1,12 @@
 # Date.format
-![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/bifuer/Date.format/master.svg)](https://travis-ci.org/bifuer/Date.format) [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/bifuer/Date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format)
+![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/pillarsjs/Date.format/master.svg)](https://travis-ci.org/pillarsjs/Date.format) [![npm version](https://img.shields.io/npm/v/date.format.svg)](https://www.npmjs.com/package/date.format) [![Github release](https://img.shields.io/github/release/bifuer/Date.format.svg)](https://github.com/pillarsjs/Date.format) [![npm downloads](https://img.shields.io/npm/dm/date.format.svg)](https://www.npmjs.com/package/date.format)
 
 Languages:[[EN](#),[ES](#dateformat-es)]
 
 Add to [JS Date.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) `.format()` method, allow format the object date in a readable form.  
 Call to method with the pattern you want and will return it formated.
 
-> Date.format is based on [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+> Date.format is based on [String.format](https://github.com/pillarsjs/String.format) > "Hello {name}!".format({name:"Homer"});
 
 [npm](https://www.npmjs.com/package/date.format)
 
@@ -59,14 +59,14 @@ MIT
 Añade a [Date.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) el método `.format()`, permitiendo formatear el objeto date de una forma legible. 
 Especificamos al método el formato en el que devolverá el objeto date.
 
-> Date.format utiliza [String.format](https://github.com/bifuer/String.format) > "Hello {name}!".format({name:"Homer"});
+> Date.format utiliza [String.format](https://github.com/pillarsjs/String.format) > "Hello {name}!".format({name:"Homer"});
 
 [npm](https://www.npmjs.com/package/date.format)
 
 ```javascript
 Date.prototype.format( pattern [, UTC]);
 ````
-+ **pattern** *(string)*: patrón con el formato de sustitución de [String.format](#https://github.com/bifuer/String.format)
++ **pattern** *(string)*: patrón con el formato de sustitución de [String.format](#https://github.com/pillarsjs/String.format)
 + **UTC** *(boolean)*: true si el date es UTC. False para GMT.
 
 
